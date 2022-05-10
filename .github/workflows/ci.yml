@@ -1,0 +1,17 @@
+on:
+  push:
+    branches:
+      - 'master'
+  pull_request:
+    branches:
+      - 'master'
+
+name: CI
+
+jobs:
+
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: some ci
+        run: echo "some ci"
