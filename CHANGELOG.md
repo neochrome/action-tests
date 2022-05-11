@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.9](https://github.com/neochrome/action-tests/compare/v1.0.8...v1.0.9) (2022-05-11)
+
+
+### Bug Fixes
+
+* ... ([cf9911a](https://github.com/neochrome/action-tests/commit/cf9911a4ff060ff9744262f17f607e3dbd64fcef))
+
 ### [1.0.8](https://github.com/neochrome/action-tests/compare/v1.0.7...v1.0.8) (2022-05-11)
 
 
