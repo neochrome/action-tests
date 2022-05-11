@@ -6,11 +6,11 @@ on:
 permissions:
   contents: write
 
-name: Release
+name: Publish
 
 jobs:
 
-  build:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
