@@ -17,6 +17,6 @@ jobs:
         run: ls -al
 
       - name: upload
-        run: gh release upload $GITHUB_REF ./my-artifact#super cool
+        run: gh release upload $GITHUB_REF ./my-artifact #super cool
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
