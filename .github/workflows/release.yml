@@ -1,7 +1,4 @@
 on:
-  push:
-    tags:
-      - 'v*.*.*'
   release:
     types:
       - published
@@ -14,4 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: building
-        run: echo ${{ github }}
+        run: echo "something" > ./my-artifact
+
+      - name: upload
+        run: gh release upload $GITHUB_REF ./my-artifact#super cool
