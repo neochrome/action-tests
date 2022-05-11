@@ -14,4 +14,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: building
-        run: echo "building"
+        run: echo ${{ github }}
