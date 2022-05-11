@@ -3,6 +3,9 @@ on:
     types:
       - published
 
+permissions:
+  contents: write
+
 name: Release
 
 jobs:
