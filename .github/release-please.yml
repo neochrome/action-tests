@@ -1,2 +1,3 @@
-primaryBranch: 'master'
+primaryBranch: master
 releaseType: simple
+handleGHRelease: true
