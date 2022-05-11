@@ -13,6 +13,9 @@ jobs:
       - name: building
         run: echo "something" > ./my-artifact
 
+      - name: list
+        run: ls -al
+
       - name: upload
         run: gh release upload $GITHUB_REF ./my-artifact#super cool
         env:
