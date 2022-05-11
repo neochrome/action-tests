@@ -1,5 +1,13 @@
 # Changelog
 
+### [1.0.4](https://github.com/neochrome/action-tests/compare/v1.0.3...v1.0.4) (2022-05-11)
+
+
+### Bug Fixes
+
+* bump ([b0cb1da](https://github.com/neochrome/action-tests/commit/b0cb1dabf157537373a28f9aad72e99772683dc9))
+* bumpy ([cdfcd78](https://github.com/neochrome/action-tests/commit/cdfcd78ae1ac1f61d2f8b714ea6172ccc1a4227d))
+
 ### [1.0.3](https://github.com/neochrome/action-tests/compare/v1.0.2...v1.0.3) (2022-05-11)
 
 
