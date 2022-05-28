@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/neochrome/action-tests/compare/v1.1.0...v1.2.0) (2022-05-28)
+
+
+### Features
+
+* something ([f157891](https://github.com/neochrome/action-tests/commit/f1578911a6a2636b3fcc4d6a9f9580f7d6d916c9))
+
 ## [1.1.0](https://github.com/neochrome/action-tests/compare/v1.0.10...v1.1.0) (2022-05-11)
 
 
