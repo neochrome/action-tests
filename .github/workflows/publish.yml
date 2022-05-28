@@ -12,16 +12,23 @@ jobs:
 
   publish:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - name: x86-64-darwin
+            target: x86_64-apple-darwin
+          - name: x86-64-linux
+            target: x86_64-unknown-linux-musl
     steps:
       - uses: actions/checkout@v2
 
       - name: building
-        run: echo "something" > ./my-artifact
+        run: echo "${{ matrix.target }}" > ./${{ matrix.target }}.txt
 
-      - name: list
-        run: ls -al
+      - name: rename
+        run: mv ./${{ matrix.target }}.txt ./${{ matrix.name }}
 
       - name: upload
-        run: gh release upload ${{ github.event.release.tag_name }} ./my-artifact #super cool
+        run: gh release upload ${{ github.event.release.tag_name }} ./${{ matrix.name }}
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
